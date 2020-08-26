@@ -21,7 +21,7 @@ NSString *  secretKey=@"d5bn7ih0rJUbange7Kx0B5jXWiVdYJPHpYLxV384IG0";
 
 - (void)viewDidLoad
 {
-
+    self.view.backgroundColor = [UIColor whiteColor];
     [self PutSensorDatatoServer];
     [super viewDidLoad];
 }
